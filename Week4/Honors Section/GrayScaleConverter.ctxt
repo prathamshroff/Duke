@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=GrayScaleConverter
+comment0.text=\n\ Convert\ any\ number\ of\ images\ to\ a\ gray\ scale\ version\ by\ setting\ all\ color\ components\ of\ each\ pixel\ to\ the\ same\ value.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=inImage
+comment1.target=edu.duke.ImageResource\ makeGray(edu.duke.ImageResource)
+comment2.params=
+comment2.target=void\ selectConvertSave()
+comment3.params=inImage
+comment3.target=edu.duke.ImageResource\ invert(edu.duke.ImageResource)
+comment4.params=
+comment4.target=void\ selectInvertSave()
+numComments=5

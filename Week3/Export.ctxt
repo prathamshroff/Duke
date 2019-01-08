@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Export
+comment0.text=\ Assignment\n\ The\ CSV\ file\ exportdata.csv\ has\ information\ on\ the\ export\ products\ of\ countries;\n\ you\ can\ download\ a\ .zip\ folder\ with\ this\ and\ other\ export\ data\ files\ here.\n\ In\ particular\ it\ has\ three\ column\ headers\ labeled\ Country,\ Exports,\ and\ Value\ (dollars).\n\ The\ Country\ column\ represents\ a\ country\ from\ the\ world,\ the\ Exports\ column\ is\ a\ list\ of\ export\ items\ for\ a\ country,\n\ and\ the\ Value\ (dollars)\ column\ is\ the\ dollar\ amount\ in\ millions\ of\ their\ exports\ in\ the\ format\ of\ a\ dollar\ sign,\n\ followed\ by\ an\ integer\ number\ with\ a\ comma\ separator\ every\ three\ digits\ from\ the\ right.\n\ An\ example\ of\ such\ a\ value\ might\ be\ \u201C$400,000,000\u201D.\n
+comment1.params=
+comment1.target=void\ tester()
+comment1.text=\ 1.\ This\ method\ is\ the\ main()\ or\ the\ tester\ method\n
+comment2.params=parser\ country
+comment2.target=java.lang.String\ countryInfo(org.apache.commons.csv.CSVParser,\ java.lang.String)
+comment2.text=\ 2.\ This\ method\ returns\ information\ on\ the\ about\ a\ country\ if\ it\ is\ found\ in\ the\ CSV\ file\ and\ returns\ "NOT\ FOUND"\ otherwise.\n
+comment3.params=parser\ exportItem1\ exportItem2
+comment3.target=void\ listExportersTwoProducts(org.apache.commons.csv.CSVParser,\ java.lang.String,\ java.lang.String)
+comment3.text=\ 3.\ This\ method\ prints\ the\ names\ of\ all\ the\ countries\ that\ have\ both\ exportItem1\ and\ exportItem2\ as\ export\ items.\n
+comment4.params=parser\ exportItem
+comment4.target=int\ numberOfExporters(org.apache.commons.csv.CSVParser,\ java.lang.String)
+comment4.text=\ 4.\ This\ method\ returns\ the\ number\ of\ countries\ that\ export\ exportItem.\n
+comment5.params=parser\ amount
+comment5.target=void\ bigExporters(org.apache.commons.csv.CSVParser,\ java.lang.String)
+comment5.text=\ 5.\ This\ method\ prints\ the\ names\ of\ countries\ and\ their\ value\ amount\ for\ all\ countries\ whose\ Value\ (dollars)\ string\ is\ longer\ than\ the\ amount\ string.\n
+numComments=6
